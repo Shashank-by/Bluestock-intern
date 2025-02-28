@@ -80,20 +80,13 @@
 ### 📂 Project Index
 <details open>
 	<summary><b><code>BLUESTOCK-INTERN.GIT/</code></b></summary>
-	<details> <!-- __root__ Submodule -->
-		<summary><b>__root__</b></summary>
-		<blockquote>
-			<table>
-			</table>
-		</blockquote>
-	</details>
 	<details> <!-- backend Submodule -->
 		<summary><b>backend</b></summary>
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/backend/package-lock.json'>package-lock.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern/blob/main/backend/package.json'>package-lock.json</a></b></td>
+				<td><code>❯ package.json</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/backend/request.http'>request.http</a></b></td>
