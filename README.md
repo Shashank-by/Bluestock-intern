@@ -60,7 +60,6 @@
 
 ### 📂 Project Index
 <details open>
-	<summary><b><code>BLUESTOCK-INTERN.GIT/</code></b></summary>
 	<details> <!-- backend Submodule -->
 		<summary><b>backend</b></summary>
 		<blockquote>
@@ -71,15 +70,15 @@
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/backend/request.http'>request.http</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ request.http</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/backend/index.js'>index.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ index.js</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/backend/package.json'>package.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ package.json</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -90,31 +89,31 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/UpcomingIpoTable.css'>UpcomingIpoTable.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ UpcomingIpoTable.css</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/signuppage.css'>signuppage.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ sighuppage.css</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/ipo.css'>ipo.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ ipo.css</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/signinpage.html'>signinpage.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ sighinpage.html</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/RegisterIPOmain.html'>RegisterIPOmain.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ RegisterIPOmain.html</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/forgotpasswordpage.js'>forgotpasswordpage.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯forgotpasswordpage.js </code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/signinpage.css'>signinpage.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯signinpage.css </code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/forgotpasswordpage.html'>forgotpasswordpage.html</a></b></td>
