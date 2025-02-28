@@ -14,13 +14,32 @@
 
 ## 📍 Overview
 
-<code>❯ REPLACE-ME</code>
+<code>❯The IPO Web Application for Bluestock Fintech Company is a cutting-edge digital platform designed to facilitate seamless participation in Initial Public Offerings (IPOs). Built with a user-centric approach, the application provides a streamlined, secure, and efficient process for investors to explore, apply for, and track IPOs.
+
+With a robust backend architecture and an intuitive user interface, the platform ensures smooth application processing, real-time updates, and secure transactions. It caters to both retail and institutional investors, offering a comprehensive suite of features that enhance the IPO subscription experience while ensuring regulatory compliance and operational efficiency.
+
+</code>
 
 ---
 
 ## 👾 Features
 
-<code>❯ REPLACE-ME</code>
+<code>❯1. User Registration & Compliance
+Secure account creation with multi-factor authentication
+Automated KYC verification integrated with regulatory bodies
+Compliance with financial and security regulations
+2. IPO Listings & Market Insights
+Real-time updates on upcoming, ongoing, and past IPOs
+Detailed company profiles, financial insights, and subscription trends
+Live tracking of IPO subscription status
+3. Seamless IPO Application & Bidding
+Guided application process with a user-friendly interface
+Multiple payment options, including UPI, Net Banking, and ASBA
+Instant bid confirmation and tracking
+4. Investor Dashboard & Portfolio Management
+Personalized dashboard to monitor applications and allotments
+Investment portfolio insights with historical data
+Performance tracking of previous IPO subscriptions</code>
 
 ---
 
