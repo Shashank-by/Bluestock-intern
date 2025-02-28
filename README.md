@@ -117,51 +117,51 @@
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/forgotpasswordpage.html'>forgotpasswordpage.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ forgotpasswordpage</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/ipo.js'>ipo.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ ipo.js</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/signuppage.html'>signuppage.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ signuppage.html</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/signuppage.js'>signuppage.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ signuppage.js</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/resetpassword.js'>resetpassword.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯resetpassword.js</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/RegisterIPOmain.css'>RegisterIPOmain.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯RegisterIPOmain.css </code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/UpcomingIpoTable.html'>UpcomingIpoTable.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯UpcomingIpoTable.html </code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/resetpassword.html'>resetpassword.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯resetpassword.html</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/server.js'>server.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯server.js </code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/ipo-admin-dashboard.html'>ipo-admin-dashboard.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ ipo-admin-dashboard.html</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/signinpage.js'>signinpage.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯signinpage.js </code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/Shashank-by/Bluestock-intern.git/blob/master/frontend/forgotpasswordpage.css'>forgotpasswordpage.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ forgotpasswordpage.css</code></td>
 			</tr>
 			</table>
 		</blockquote>
