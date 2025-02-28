@@ -1,0 +1,37 @@
+###
+POST http://localhost:5000/signup
+Content-Type: application/json
+
+{
+    "name": "anudeep",
+    "email": "anudeep07@gmail.com",
+    "password": "12345"
+}
+###
+GET  http://localhost:5000/registerIpo
+###
+GET  http://localhost:5000/ipo-stats
+###
+DELETE   http://localhost:5000//deleteIpo/:0
+###
+POST http://localhost:5000/registerIpo
+Content-Type: application/json
+
+{
+    "company_name": "Airtel",
+    "price_band": "Not Issued",
+    "open_date": null,
+    "close_date": null,
+    "issue_size": 2300.00,
+    "issue_type": "Book Built",
+    "listing_date": null,
+    "status": "Not Issued",
+    "ipo_price": 383,
+    "listing_price": 435,
+    "listing_gain": -13.58,
+    "listed_date": null,
+    "current_market_price": 410,
+    "current_return": 7.05,
+    "rhp_link": "https://example.com/rhp.pdf",
+    "drhp_link": "https://example.com/drhp.pdf"
+}

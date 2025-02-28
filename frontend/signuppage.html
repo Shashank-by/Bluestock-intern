@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluestock Sign-Up</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="signuppage.css">
+</head>
+<body>
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+        <div class="card">
+            <div class="header">
+                <img src="./assets/logo.png" alt="Bluestock Logo" class="logo">
+                <h4 class="title">BLUESTOCK</h4>
+            </div>
+            <div class="header">
+                <h5>Create an account</h5>
+            </div>
+            <form id="signup-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="form-label">Password</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" id="password" name="password" required>
+                        <span class="input-group-text" id="toggle-password">
+                            <img src="./assets/eye.jpg" alt="eye-icon" class="eye-image">
+                        </span>
+                    </div>
+                </div>
+                <p>By continuing, you agree to our <a href="#">terms of service</a>.</p>
+                <div class="robot-check">
+                    <input type="checkbox" id="not-a-robot">
+                    <label for="not-a-robot">I'm not a robot</label>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Sign up</button>
+                <div class="alternative">or sign in with</div>
+                <button type="button" class="btn btn-outline-secondary w-100">
+                    <img src="./assets/google.png" alt="Google Icon" class="google-icon">
+                    Continue with Google
+                </button>
+                <div class="signup-link">
+                    Already have an account? <a href="signinpage.html" class="text-primary">Sign in here</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="signuppage.js"></script>
+</body>
+</html>

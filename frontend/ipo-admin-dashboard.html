@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPO Admin Dashboard</title>
+    <link rel="stylesheet" href="ipo.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">
+          <span class="logo-circle">BF</span>
+          <span class="logo-text">Bluestock Fintech</span>
+        </div>
+      </div>
+      <ul class="menu">
+        <li class="menu-item active"><i class="fas fa-home"></i> Dashboard</li>
+        <li class="menu-item"><i class="fas fa-tasks"></i> Manage IPO</li>
+        <li class="menu-item">
+          <i class="fas fa-file-alt"></i> IPO Subscription
+        </li>
+        <li class="menu-item"><i class="fas fa-coins"></i> IPO Allotment</li>
+        <li class="menu-title">OTHERS</li>
+        <li class="menu-item"><i class="fas fa-cog"></i> Settings</li>
+        <li class="menu-item"><i class="fas fa-database"></i> API Manager</li>
+        <li class="menu-item"><i class="fas fa-user"></i> Accounts</li>
+        <li class="menu-item"><i class="fas fa-question-circle"></i> Help</li>
+      </ul>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="navbar-left"></div>
+
+      <div class="navbar-center">
+        <i class="fa-solid fa-search"></i>
+        <input type="text" placeholder="Search" />
+      </div>
+
+      <div class="navbar-right">
+        <div class="user-profile">
+          <div class="user-icon">V</div>
+          <span class="username">Hi, Vishal</span>
+          <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+        </div>
+        <div class="notification-icon">
+          <i class="fa-solid fa-bell"></i>
+          <span class="notification-badge"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col1">
+            <!--first element in column-->
+            <h4 class="card-title">Main Board IPO</h4>
+            <div class="circle-container">
+              <div class="circles">
+                <div class="circle total-ipo">
+                  <span>30</span>
+                  <p>Total IPO</p>
+                </div>
+                <div class="circle ipo-gain">
+                  <span>20</span>
+                  <p>IPO in Gain</p>
+                </div>
+                <div class="circle ipo-loss">
+                  <span>9</span>
+                  <p>IPO in Loss</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col2">
+            <div class="quick-links border">
+              <h4 class="card-title">Quick Links</h4>
+              <p class="card-para">Adiplscin elit, sed do elusmod tempor</p>
+              <div class="card-row flex-col">
+                <img
+                  src="https://pbs.twimg.com/profile_images/1559372151412912128/fRQiOoxv_400x400.png"
+                  alt=""
+                  width="35rem"
+                  height="35rem"
+                />
+                <p class="card-row-title">NSE India</p>
+                <a class="card-row-link" href="#">Visit Now</a>
+              </div>
+              <div class="hr"></div>
+              <div class="card-row flex-col">
+                <img
+                  src="https://images.seeklogo.com/logo-png/51/1/bombay-stock-exchange-logo-png_seeklogo-511599.png"
+                  alt=""
+                  width="35rem"
+                  height="35rem"
+                />
+                <p class="card-row-title">BSE India</p>
+                <a class="card-row-link" href="#">Visit Now</a>
+              </div>
+              <div class="hr"></div>
+              <div class="card-row flex-col">
+                <img
+                  src="https://www.livelaw.in/h-upload/2024/05/24/541364-sebi.webp"
+                  alt=""
+                  width="35rem"
+                  height="35rem"
+                />
+                <p class="card-row-title">SEBI</p>
+                <a class="card-row-link" href="#">Visit Now</a>
+              </div>
+              <div class="hr"></div>
+              <div class="card-row flex-col">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBO1d3sH4ekGACi28M6xKjJ2JBTO00yjTDng&s"
+                  alt=""
+                  width="35rem"
+                  height="35rem"
+                />
+                <p class="card-row-title">Moneycontrol</p>
+                <a class="card-row-link" href="#">Visit Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="hr"></div>
+          <div class="col3">
+            <div id="chart-container">
+              <h4 class="card-title">IPO Dashboard India</h4>
+              <p class="card-para">From 01 Jan 2024</p>
+              <button class="button-right">View Report</button>
+              <canvas id="modernDonutChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="ipo.js"></script>
+  </body>
+</html>

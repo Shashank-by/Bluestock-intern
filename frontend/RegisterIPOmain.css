@@ -1,0 +1,192 @@
+/* Reset Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+   
+  }
+  
+  /* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    font-size: 40px;
+    color: #333;
+  }
+  
+  .header p {
+    font-size: 20px;
+    color: #666;
+  }
+  /* Buttons */
+  .register-btn {
+    background-color: #4f80e1;
+    margin-right: 10px;
+    color: white;
+    padding: 15px 30px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    border: 1px solid #4f80e1;
+    color: #4f80e1;
+    background-color: white;
+    padding: 15px 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn{
+    margin-right: 50px;
+  }
+  .maincontainer {
+    display: flex;
+    width: 100%;
+  }
+  /* Layout */
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    margin-top: 0.5%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    background: #e9ecef;
+    border-radius: 5px;
+  }
+  
+  .sidebar nav ul li a.active {
+    background: #2c48a43d;
+    color: rgb(13, 28, 203);
+  }
+  
+  /* Content */
+  .content {
+    flex-grow: 1;
+    padding: 1px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* IPO Info Section */
+  .ipo-info {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo Section */
+  .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .company-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .logo-details {
+    flex-grow: 1;
+  }
+  
+  .upload {
+    background-color: #4f80e1;
+    margin-left: 20%;
+   
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .delete {
+    border: 1px solid #4f80e1;
+    color: #4f80e1;
+    background-color: white;
+    padding: 10px 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Form Styling */
+  form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    
+  }
+  
+  input, select {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 60%;
+  }
+  
+  
+  
+  
+  
+  
+  

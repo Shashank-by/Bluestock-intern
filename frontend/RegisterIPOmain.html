@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPO Registration</title>
+    <link rel="stylesheet" href="RegisterIPOmain.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div>
+            <h1>Upcoming IPO Information</h1>
+            <p>Manage your IPO Details</p>
+        </div>
+        <div class="btn">
+            <br>
+            <button type="submit" class="register-btn">Register</button>
+            <button class="cancel-btn">Cancel</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">IPO Information</a></li>
+                    <li><a href="#">IPO Info</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <section class="ipo-info">
+                <h1>IPO Information</h1>
+                <p>Enter IPO Details</p>
+                <hr>
+
+                <!-- Company Logo -->
+                <div class="logo-section">
+                    <img src="../assets/logo.png" alt="Company Logo" class="company-logo">
+                    <div class="logo-details">
+                        <p>NSE India</p>
+                        <p>Tech Listed, <br>Pune</p>
+                        <button class="upload">Upload Logo</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+
+                <!-- IPO Form -->
+                <form id="ipoForms">
+                    <div class="form-group">
+                        <label for="company_name">Company Name:</label><br>
+                        <input type="text" id="company_name" name="company_name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="price_band">Price Band:</label><br>
+                        <input type="text" id="price_band" name="price_band" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="open_date">Open Date:</label><br>
+                        <input type="date" id="open_date" name="open_date" >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="close_date">Close Date:</label><br>
+                        <input type="date" id="close_date" name="close_date" >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="issue_size">Issue Size:</label><br>
+                        <input type="text" id="issue_size" name="issue_size" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="issue_type">Issue Type:</label><br>
+                        <input type="text" id="issue_type" name="issue_type" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="listing_date">Listing Date:</label><br>
+                        <input type="date" id="listing_date" name="listing_date" >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="status">Status:</label><br>
+                        <input type="text" id="status" name="status" required>
+                    </div>
+
+                    <h2>New Listed IPO Details (When IPO Gets Listed)</h2><br>
+
+                    <div class="form-group">
+                        <label for="ipo_price">IPO Price:</label><br>
+                        <input type="text" id="ipo_price" name="ipo_price" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="listing_price">Listing Price:</label><br>
+                        <input type="text" id="listing_price" name="listing_price" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="listing_gain">Listing Gain:</label><br>
+                        <input type="text" id="listing_gain" name="listing_gain" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="listed_date">Listed Date:</label><br>
+                        <input type="date" id="listed_date" name="listed_date" >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="CMP">CMP:</label><br>
+                        <input type="text" id="CMP" name="current_market_price" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Current">Current Return:</label><br>
+                        <input type="text" id="Current" name="current_return" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="RHP">RHP:</label><br>
+                        <input type="text" id="RHP" name="rhp_link" placeholder="Enter RHP PDF Link" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="DRHP">DRHP:</label><br>
+                        <input type="text" id="DRHP" name="drhp_link" placeholder="Enter DRHP PDF Link" required>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="register-btn">Register IPO</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        // Check if user is logged in
+        function checkAuth() {
+            const isLoggedIn = localStorage.getItem('isLoggedIn');
+            if (!isLoggedIn) {
+                alert('Please login to access this page');
+                window.location.href = 'signinpage.html';
+                return false;
+            }
+            return true;
+        }
+
+        // Run auth check when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            if (!checkAuth()) return;
+        });
+
+        document.getElementById('ipoForms').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            if (!checkAuth()) return;
+
+            // Gather form data
+            const formData = {
+                company_name: document.getElementById('company_name').value,
+                price_band: document.getElementById('price_band').value,
+                open_date: document.getElementById('open_date').value,
+                close_date: document.getElementById('close_date').value,
+                issue_size: document.getElementById('issue_size').value,
+                issue_type: document.getElementById('issue_type').value,
+                listing_date: document.getElementById('listing_date').value,
+                status: document.getElementById('status').value,
+                ipo_price: document.getElementById('ipo_price').value,
+                listing_price: document.getElementById('listing_price').value,
+                listing_gain: document.getElementById('listing_gain').value,
+                listed_date: document.getElementById('listed_date').value,
+                current_market_price: document.getElementById('CMP').value,
+                current_return: document.getElementById('Current').value,
+                rhp_link: document.getElementById('RHP').value,
+                drhp_link: document.getElementById('DRHP').value
+            };
+
+            try {
+                const response = await fetch('http://localhost:5001/registerIpo', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer ' + localStorage.getItem('userEmail') // Simple auth header
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const result = await response.json();
+                if (result.success) {
+                    alert('IPO registered successfully!');
+                    window.location.href = 'UpcomingIpoTable.html';
+                } else {
+                    alert('Error registering IPO: ' + result.message);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                if (error.message === 'Unauthorized') {
+                    alert('Your session has expired. Please login again.');
+                    window.location.href = 'signinpage.html';
+                } else {
+                    alert('Something went wrong while registering the IPO.');
+                }
+            }
+        });
+
+        // Add logout functionality
+        function logout() {
+            localStorage.removeItem('isLoggedIn');
+            localStorage.removeItem('userEmail');
+            window.location.href = 'signinpage.html';
+        }
+    </script>
+
+</body>
+</html>

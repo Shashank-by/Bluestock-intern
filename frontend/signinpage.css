@@ -1,0 +1,135 @@
+/* General Layout */
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 450px;
+}
+
+/* Card Styling */
+.card {
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.logo {
+    height: 20px;
+    margin-right: -5px;
+}
+
+.title {
+    margin-left: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.forgot-link {
+    font-size: 0.9rem;
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+/* Password Input Group */
+.input-group {
+    position: relative;
+}
+
+.input-group input {
+    width: 100%;
+    padding-right: 2.5rem; /* Space for the eye icon */
+}
+
+.input-group-text {
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.input-group-text i {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Recaptcha Section */
+.robot-check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #3d3d3d;
+    padding: 1rem;
+    border-radius: 14px;
+    margin-bottom: 1.5rem;
+    max-height: 60px;
+}
+
+.recaptcha {
+    text-align: right;
+    height: 50px;
+}
+
+/* Buttons */
+.btn {
+    font-size: 1rem;
+    background-color: #7010a4;
+    color: white;
+}
+
+.alternative {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.google-icon {
+    height: 35px;
+    margin-right: 0.5rem;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.eye-image{
+    width: 30px;
+    height: max-content;
+}
+.signup-link a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #0d6efd;
+}
